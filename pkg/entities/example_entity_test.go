@@ -20,7 +20,7 @@ func Example_entity() {
 	// Search the current account for entities by name and type.
 	searchParams := SearchEntitiesParams{
 		Name: "Example entity",
-		Type: EntityTypes.Application,
+		Type: EntityTypeTypes.APM_APPLICATION_ENTITY,
 	}
 
 	entities, err := client.SearchEntities(searchParams)
