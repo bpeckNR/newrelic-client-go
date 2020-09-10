@@ -107,86 +107,86 @@ type CloudAwsDirectconnectIntegrationInput struct {
 type CloudAwsDisableIntegrationsInput struct {
 	// SES integration
 	Ses []CloudDisableAccountIntegrationInput `json:"ses"`
-	// EC2 integration
-	Ec2 []CloudDisableAccountIntegrationInput `json:"ec2"`
-	// Billing integration
-	Billing []CloudDisableAccountIntegrationInput `json:"billing"`
-	// EMR integration
-	Emr []CloudDisableAccountIntegrationInput `json:"emr"`
-	// DocumentDB integration
-	AwsDocdb []CloudDisableAccountIntegrationInput `json:"awsDocdb"`
-	// AutoScaling integration
-	Autoscaling []CloudDisableAccountIntegrationInput `json:"autoscaling"`
-	// Route 53 integration
-	Route53 []CloudDisableAccountIntegrationInput `json:"route53"`
 	// VPC integration
 	Vpc []CloudDisableAccountIntegrationInput `json:"vpc"`
-	// WAF integration
-	AwsWaf []CloudDisableAccountIntegrationInput `json:"awsWaf"`
 	// AppSync integration
 	AwsAppsync []CloudDisableAccountIntegrationInput `json:"awsAppsync"`
-	// Kinesis Streams integration
-	Kinesis []CloudDisableAccountIntegrationInput `json:"kinesis"`
-	// DynamoDB integration
-	Dynamodb []CloudDisableAccountIntegrationInput `json:"dynamodb"`
-	// Elastic Beanstalk integration
-	Elasticbeanstalk []CloudDisableAccountIntegrationInput `json:"elasticbeanstalk"`
-	// S3 integration
-	S3 []CloudDisableAccountIntegrationInput `json:"s3"`
-	// SQS integration
-	Sqs []CloudDisableAccountIntegrationInput `json:"sqs"`
-	// SNS integration
-	Sns []CloudDisableAccountIntegrationInput `json:"sns"`
-	// Elasticsearch Service integration
-	Elasticsearch []CloudDisableAccountIntegrationInput `json:"elasticsearch"`
-	// Health integration
-	Health []CloudDisableAccountIntegrationInput `json:"health"`
-	// IoT integration
-	Iot []CloudDisableAccountIntegrationInput `json:"iot"`
-	// Kinesis Firehose integration
-	KinesisFirehose []CloudDisableAccountIntegrationInput `json:"kinesisFirehose"`
-	// ElastiCache integration
-	Elasticache []CloudDisableAccountIntegrationInput `json:"elasticache"`
-	// EFS integration
-	Efs []CloudDisableAccountIntegrationInput `json:"efs"`
 	// CloudFront integration
 	Cloudfront []CloudDisableAccountIntegrationInput `json:"cloudfront"`
-	// ECS integration
-	Ecs []CloudDisableAccountIntegrationInput `json:"ecs"`
-	// ELB integration
-	Alb []CloudDisableAccountIntegrationInput `json:"alb"`
-	// Lambda integration
-	Lambda []CloudDisableAccountIntegrationInput `json:"lambda"`
-	// Athena integration
-	AwsAthena []CloudDisableAccountIntegrationInput `json:"awsAthena"`
-	// Step Functions integration
-	AwsStates []CloudDisableAccountIntegrationInput `json:"awsStates"`
-	// API Gateway integration
-	APIgateway []CloudDisableAccountIntegrationInput `json:"apigateway"`
 	// IAM integration
 	Iam []CloudDisableAccountIntegrationInput `json:"iam"`
-	// MQ integration
-	AwsMq []CloudDisableAccountIntegrationInput `json:"awsMq"`
-	// CloudTrail integration
-	Cloudtrail []CloudDisableAccountIntegrationInput `json:"cloudtrail"`
-	// Redshift integration
-	Redshift []CloudDisableAccountIntegrationInput `json:"redshift"`
-	// EBS integration
-	Ebs []CloudDisableAccountIntegrationInput `json:"ebs"`
-	// Managed Kafka integration
-	AwsMsk []CloudDisableAccountIntegrationInput `json:"awsMsk"`
-	// Direct Connect integration
-	AwsDirectconnect []CloudDisableAccountIntegrationInput `json:"awsDirectconnect"`
+	// S3 integration
+	S3 []CloudDisableAccountIntegrationInput `json:"s3"`
+	// Health integration
+	Health []CloudDisableAccountIntegrationInput `json:"health"`
+	// SQS integration
+	Sqs []CloudDisableAccountIntegrationInput `json:"sqs"`
+	// Billing integration
+	Billing []CloudDisableAccountIntegrationInput `json:"billing"`
 	// QLDB integration
 	AwsQldb []CloudDisableAccountIntegrationInput `json:"awsQldb"`
-	// Glue integration
-	AwsGlue []CloudDisableAccountIntegrationInput `json:"awsGlue"`
+	// IoT integration
+	Iot []CloudDisableAccountIntegrationInput `json:"iot"`
+	// EFS integration
+	Efs []CloudDisableAccountIntegrationInput `json:"efs"`
+	// Redshift integration
+	Redshift []CloudDisableAccountIntegrationInput `json:"redshift"`
 	// ELB (Classic) integration
 	Elb []CloudDisableAccountIntegrationInput `json:"elb"`
-	// RDS integration
-	Rds []CloudDisableAccountIntegrationInput `json:"rds"`
+	// ECS integration
+	Ecs []CloudDisableAccountIntegrationInput `json:"ecs"`
+	// Kinesis Streams integration
+	Kinesis []CloudDisableAccountIntegrationInput `json:"kinesis"`
+	// Route 53 integration
+	Route53 []CloudDisableAccountIntegrationInput `json:"route53"`
+	// Managed Kafka integration
+	AwsMsk []CloudDisableAccountIntegrationInput `json:"awsMsk"`
+	// Athena integration
+	AwsAthena []CloudDisableAccountIntegrationInput `json:"awsAthena"`
+	// ELB integration
+	Alb []CloudDisableAccountIntegrationInput `json:"alb"`
+	// DynamoDB integration
+	Dynamodb []CloudDisableAccountIntegrationInput `json:"dynamodb"`
+	// API Gateway integration
+	APIgateway []CloudDisableAccountIntegrationInput `json:"apigateway"`
 	// Trusted Advisor integration
 	Trustedadvisor []CloudDisableAccountIntegrationInput `json:"trustedadvisor"`
+	// Elasticsearch Service integration
+	Elasticsearch []CloudDisableAccountIntegrationInput `json:"elasticsearch"`
+	// SNS integration
+	Sns []CloudDisableAccountIntegrationInput `json:"sns"`
+	// EC2 integration
+	Ec2 []CloudDisableAccountIntegrationInput `json:"ec2"`
+	// EBS integration
+	Ebs []CloudDisableAccountIntegrationInput `json:"ebs"`
+	// Step Functions integration
+	AwsStates []CloudDisableAccountIntegrationInput `json:"awsStates"`
+	// Lambda integration
+	Lambda []CloudDisableAccountIntegrationInput `json:"lambda"`
+	// WAF integration
+	AwsWaf []CloudDisableAccountIntegrationInput `json:"awsWaf"`
+	// EMR integration
+	Emr []CloudDisableAccountIntegrationInput `json:"emr"`
+	// MQ integration
+	AwsMq []CloudDisableAccountIntegrationInput `json:"awsMq"`
+	// RDS integration
+	Rds []CloudDisableAccountIntegrationInput `json:"rds"`
+	// AutoScaling integration
+	Autoscaling []CloudDisableAccountIntegrationInput `json:"autoscaling"`
+	// Glue integration
+	AwsGlue []CloudDisableAccountIntegrationInput `json:"awsGlue"`
+	// ElastiCache integration
+	Elasticache []CloudDisableAccountIntegrationInput `json:"elasticache"`
+	// Kinesis Firehose integration
+	KinesisFirehose []CloudDisableAccountIntegrationInput `json:"kinesisFirehose"`
+	// DocumentDB integration
+	AwsDocdb []CloudDisableAccountIntegrationInput `json:"awsDocdb"`
+	// Direct Connect integration
+	AwsDirectconnect []CloudDisableAccountIntegrationInput `json:"awsDirectconnect"`
+	// CloudTrail integration
+	Cloudtrail []CloudDisableAccountIntegrationInput `json:"cloudtrail"`
+	// Elastic Beanstalk integration
+	Elasticbeanstalk []CloudDisableAccountIntegrationInput `json:"elasticbeanstalk"`
 }
 
 // CloudAwsDocdbIntegrationInput - DocumentDB
@@ -305,86 +305,86 @@ type CloudAwsGovcloudLinkAccountInput struct {
 type CloudAwsIntegrationsInput struct {
 	// SES integration
 	Ses []CloudSesIntegrationInput `json:"ses"`
-	// EC2 integration
-	Ec2 []CloudEc2IntegrationInput `json:"ec2"`
-	// Billing integration
-	Billing []CloudBillingIntegrationInput `json:"billing"`
-	// EMR integration
-	Emr []CloudEmrIntegrationInput `json:"emr"`
-	// DocumentDB integration
-	AwsDocdb []CloudAwsDocdbIntegrationInput `json:"awsDocdb"`
-	// AutoScaling integration
-	Autoscaling []CloudAutoscalingIntegrationInput `json:"autoscaling"`
-	// Route 53 integration
-	Route53 []CloudRoute53IntegrationInput `json:"route53"`
 	// VPC integration
 	Vpc []CloudVpcIntegrationInput `json:"vpc"`
-	// WAF integration
-	AwsWaf []CloudAwsWafIntegrationInput `json:"awsWaf"`
 	// AppSync integration
 	AwsAppsync []CloudAwsAppsyncIntegrationInput `json:"awsAppsync"`
-	// Kinesis Streams integration
-	Kinesis []CloudKinesisIntegrationInput `json:"kinesis"`
-	// DynamoDB integration
-	Dynamodb []CloudDynamodbIntegrationInput `json:"dynamodb"`
-	// Elastic Beanstalk integration
-	Elasticbeanstalk []CloudElasticbeanstalkIntegrationInput `json:"elasticbeanstalk"`
-	// S3 integration
-	S3 []CloudS3IntegrationInput `json:"s3"`
-	// SQS integration
-	Sqs []CloudSqsIntegrationInput `json:"sqs"`
-	// SNS integration
-	Sns []CloudSnsIntegrationInput `json:"sns"`
-	// Elasticsearch Service integration
-	Elasticsearch []CloudElasticsearchIntegrationInput `json:"elasticsearch"`
-	// Health integration
-	Health []CloudHealthIntegrationInput `json:"health"`
-	// IoT integration
-	Iot []CloudIotIntegrationInput `json:"iot"`
-	// Kinesis Firehose integration
-	KinesisFirehose []CloudKinesisFirehoseIntegrationInput `json:"kinesisFirehose"`
-	// ElastiCache integration
-	Elasticache []CloudElasticacheIntegrationInput `json:"elasticache"`
-	// EFS integration
-	Efs []CloudEfsIntegrationInput `json:"efs"`
 	// CloudFront integration
 	Cloudfront []CloudCloudfrontIntegrationInput `json:"cloudfront"`
-	// ECS integration
-	Ecs []CloudEcsIntegrationInput `json:"ecs"`
-	// ELB integration
-	Alb []CloudAlbIntegrationInput `json:"alb"`
-	// Lambda integration
-	Lambda []CloudLambdaIntegrationInput `json:"lambda"`
-	// Athena integration
-	AwsAthena []CloudAwsAthenaIntegrationInput `json:"awsAthena"`
-	// Step Functions integration
-	AwsStates []CloudAwsStatesIntegrationInput `json:"awsStates"`
-	// API Gateway integration
-	APIgateway []CloudAPIgatewayIntegrationInput `json:"apigateway"`
 	// IAM integration
 	Iam []CloudIamIntegrationInput `json:"iam"`
-	// MQ integration
-	AwsMq []CloudAwsMqIntegrationInput `json:"awsMq"`
-	// CloudTrail integration
-	Cloudtrail []CloudCloudtrailIntegrationInput `json:"cloudtrail"`
-	// Redshift integration
-	Redshift []CloudRedshiftIntegrationInput `json:"redshift"`
-	// EBS integration
-	Ebs []CloudEbsIntegrationInput `json:"ebs"`
-	// Managed Kafka integration
-	AwsMsk []CloudAwsMskIntegrationInput `json:"awsMsk"`
-	// Direct Connect integration
-	AwsDirectconnect []CloudAwsDirectconnectIntegrationInput `json:"awsDirectconnect"`
+	// S3 integration
+	S3 []CloudS3IntegrationInput `json:"s3"`
+	// Health integration
+	Health []CloudHealthIntegrationInput `json:"health"`
+	// SQS integration
+	Sqs []CloudSqsIntegrationInput `json:"sqs"`
+	// Billing integration
+	Billing []CloudBillingIntegrationInput `json:"billing"`
 	// QLDB integration
 	AwsQldb []CloudAwsQldbIntegrationInput `json:"awsQldb"`
-	// Glue integration
-	AwsGlue []CloudAwsGlueIntegrationInput `json:"awsGlue"`
+	// IoT integration
+	Iot []CloudIotIntegrationInput `json:"iot"`
+	// EFS integration
+	Efs []CloudEfsIntegrationInput `json:"efs"`
+	// Redshift integration
+	Redshift []CloudRedshiftIntegrationInput `json:"redshift"`
 	// ELB (Classic) integration
 	Elb []CloudElbIntegrationInput `json:"elb"`
-	// RDS integration
-	Rds []CloudRdsIntegrationInput `json:"rds"`
+	// ECS integration
+	Ecs []CloudEcsIntegrationInput `json:"ecs"`
+	// Kinesis Streams integration
+	Kinesis []CloudKinesisIntegrationInput `json:"kinesis"`
+	// Route 53 integration
+	Route53 []CloudRoute53IntegrationInput `json:"route53"`
+	// Managed Kafka integration
+	AwsMsk []CloudAwsMskIntegrationInput `json:"awsMsk"`
+	// Athena integration
+	AwsAthena []CloudAwsAthenaIntegrationInput `json:"awsAthena"`
+	// ELB integration
+	Alb []CloudAlbIntegrationInput `json:"alb"`
+	// DynamoDB integration
+	Dynamodb []CloudDynamodbIntegrationInput `json:"dynamodb"`
+	// API Gateway integration
+	APIgateway []CloudAPIgatewayIntegrationInput `json:"apigateway"`
 	// Trusted Advisor integration
 	Trustedadvisor []CloudTrustedadvisorIntegrationInput `json:"trustedadvisor"`
+	// Elasticsearch Service integration
+	Elasticsearch []CloudElasticsearchIntegrationInput `json:"elasticsearch"`
+	// SNS integration
+	Sns []CloudSnsIntegrationInput `json:"sns"`
+	// EC2 integration
+	Ec2 []CloudEc2IntegrationInput `json:"ec2"`
+	// EBS integration
+	Ebs []CloudEbsIntegrationInput `json:"ebs"`
+	// Step Functions integration
+	AwsStates []CloudAwsStatesIntegrationInput `json:"awsStates"`
+	// Lambda integration
+	Lambda []CloudLambdaIntegrationInput `json:"lambda"`
+	// WAF integration
+	AwsWaf []CloudAwsWafIntegrationInput `json:"awsWaf"`
+	// EMR integration
+	Emr []CloudEmrIntegrationInput `json:"emr"`
+	// MQ integration
+	AwsMq []CloudAwsMqIntegrationInput `json:"awsMq"`
+	// RDS integration
+	Rds []CloudRdsIntegrationInput `json:"rds"`
+	// AutoScaling integration
+	Autoscaling []CloudAutoscalingIntegrationInput `json:"autoscaling"`
+	// Glue integration
+	AwsGlue []CloudAwsGlueIntegrationInput `json:"awsGlue"`
+	// ElastiCache integration
+	Elasticache []CloudElasticacheIntegrationInput `json:"elasticache"`
+	// Kinesis Firehose integration
+	KinesisFirehose []CloudKinesisFirehoseIntegrationInput `json:"kinesisFirehose"`
+	// DocumentDB integration
+	AwsDocdb []CloudAwsDocdbIntegrationInput `json:"awsDocdb"`
+	// Direct Connect integration
+	AwsDirectconnect []CloudAwsDirectconnectIntegrationInput `json:"awsDirectconnect"`
+	// CloudTrail integration
+	Cloudtrail []CloudCloudtrailIntegrationInput `json:"cloudtrail"`
+	// Elastic Beanstalk integration
+	Elasticbeanstalk []CloudElasticbeanstalkIntegrationInput `json:"elasticbeanstalk"`
 }
 
 // CloudAwsLinkAccountInput - Information required to link a AWS account to a NewRelic account.
